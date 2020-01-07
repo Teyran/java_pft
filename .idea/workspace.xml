@@ -17,12 +17,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="sandbox" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -50,6 +45,53 @@
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyFirstProgram" />
       <module name="sandbox.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="java_pft" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="java_pft" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,33 +128,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="74" key="FileChooserDialogImpl" timestamp="1578423166851">
+    <state x="484" y="74" key="FileChooserDialogImpl" timestamp="1578423649231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="484" y="74" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578423166851" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578423186350">
+    <state x="484" y="74" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578423649231" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578423562246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578423186350" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578423186349">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578423562246" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578423562246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578423186349" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578423186348">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578423562246" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578423562246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578423186348" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578423186350">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578423562246" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578423562246">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578423186350" />
-    <state x="248" y="0" key="SettingsEditor" timestamp="1578423172141">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578423562246" />
+    <state x="248" y="0" key="SettingsEditor" timestamp="1578423655015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="248" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578423172141" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578422784556">
+    <state x="248" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578423655015" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578423583039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578422784556" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578423583039" />
   </component>
 </project>
