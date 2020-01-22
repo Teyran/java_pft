@@ -15,8 +15,6 @@ public class MyFirstProgram {
 
     Point pointAB = new Point(3.f, 4.f, 7.f, 1.f);
     System.out.println("Расстояние между двумя заданными точками равно " + pointAB.distanceBetweenTwoPoints());
-
-
   }
 
 
