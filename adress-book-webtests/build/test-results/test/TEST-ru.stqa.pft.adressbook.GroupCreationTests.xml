@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.adressbook.GroupCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-22T19:07:47" hostname="DESKTOP-VH2UG0E" time="3.641">
+<testsuite name="ru.stqa.pft.adressbook.GroupCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-22T19:39:42" hostname="DESKTOP-VH2UG0E" time="1.568">
   <properties/>
-  <testcase name="testGroupCreation" classname="ru.stqa.pft.adressbook.GroupCreationTests" time="3.641"/>
+  <testcase name="testGroupCreation" classname="ru.stqa.pft.adressbook.GroupCreationTests" time="1.568"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 40682
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9412
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579720063.960][WARNING]: Timed out connecting to Chrome, retrying...
-янв. 22, 2020 10:07:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1579721979.774][WARNING]: Timed out connecting to Chrome, retrying...
+янв. 22, 2020 10:39:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
