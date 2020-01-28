@@ -129,34 +129,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579865285151" />
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1580225548283">
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom" timestamp="1580228620778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580225548283" />
-    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1580225548283">
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580228620778" />
+    <state width="1323" height="145" key="GridCell.Tab.0.center" timestamp="1580228620778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580225548283" />
-    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1580225548282">
+    <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580228620778" />
+    <state width="1323" height="145" key="GridCell.Tab.0.left" timestamp="1580228620777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580225548282" />
-    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1580225548283">
+    <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580228620777" />
+    <state width="1323" height="145" key="GridCell.Tab.0.right" timestamp="1580228620778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580225548283" />
-    <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject" timestamp="1579721666711">
+    <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580228620778" />
+    <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject" timestamp="1580228491776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject/0.0.1366.728@0.0.1366.728" timestamp="1579721666711" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1579864020517">
+    <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject/0.0.1366.728@0.0.1366.728" timestamp="1580228491776" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580226644632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579864020517" />
-    <state x="413" y="120" width="540" height="496" key="extract.method.dialog" timestamp="1579720874425">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580226644632" />
+    <state x="376" y="123" width="540" height="496" key="extract.method.dialog" timestamp="1580228328846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="120" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1579720874425" />
+    <state x="376" y="123" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1580228328846" />
     <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1579717960270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
