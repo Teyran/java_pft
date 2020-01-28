@@ -1,11 +1,13 @@
-package ru.stqa.pft.adressbook;
+package ru.stqa.pft.adressbook.tests;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
+import ru.stqa.pft.adressbook.model.ContactData;
+import ru.stqa.pft.adressbook.tests.TestBase;
 
-public class ContactCreationTest {
+public class ContactCreationTest extends TestBase {
   private WebDriver wd;
 
   @BeforeMethod(alwaysRun = true)
