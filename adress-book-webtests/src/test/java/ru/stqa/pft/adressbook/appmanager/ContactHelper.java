@@ -14,42 +14,28 @@ public class ContactHelper extends HelperBase{
     super(wd);
   }
 
-
   public void pressSubmitButton() {
-    wd.findElement(By.xpath("(//input[@name='submit'])[2]")).click();
+    click(By.xpath("(//input[@name='submit'])[2]"));
+  }
+
+  public void submitContactModification () {
+    click(By.name("update"));
   }
 
   public void fillContactForm(ContactData contactData) {
-    wd.findElement(By.name("firstname")).click();
-    wd.findElement(By.name("firstname")).clear();
-    wd.findElement(By.name("firstname")).sendKeys(contactData.getFirstName());
-    wd.findElement(By.name("middlename")).click();
-    wd.findElement(By.name("middlename")).clear();
-    wd.findElement(By.name("middlename")).sendKeys(contactData.getMiddleName());
-    wd.findElement(By.name("lastname")).click();
-    wd.findElement(By.name("lastname")).clear();
-    wd.findElement(By.name("lastname")).sendKeys(contactData.getLastName());
-    wd.findElement(By.name("nickname")).click();
-    wd.findElement(By.name("nickname")).clear();
-    wd.findElement(By.name("nickname")).sendKeys(contactData.getNickName());
-    wd.findElement(By.name("title")).click();
-    wd.findElement(By.name("title")).clear();
-    wd.findElement(By.name("title")).sendKeys(contactData.getTitle());
-    wd.findElement(By.name("mobile")).click();
-    wd.findElement(By.name("mobile")).clear();
-    wd.findElement(By.name("mobile")).sendKeys(contactData.getMobPhone());
-    wd.findElement(By.name("email")).click();
-    wd.findElement(By.name("email")).clear();
-    wd.findElement(By.name("email")).sendKeys(contactData.getEmail());
-    wd.findElement(By.name("bday")).click();
-    new Select(wd.findElement(By.name("bday"))).selectByValue(contactData.getBday());
-    wd.findElement(By.name("bday")).click();
-    wd.findElement(By.name("bmonth")).click();
-    new Select(wd.findElement(By.name("bmonth"))).selectByValue(contactData.getBmonth());
-    wd.findElement(By.name("bmonth")).click();
-    wd.findElement(By.name("byear")).click();
-    wd.findElement(By.name("byear")).clear();
-    wd.findElement(By.name("byear")).sendKeys(contactData.getByear());
+
+    type(By.name("firstname"), contactData.getFirstName());
+    type(By.name("middlename"), contactData.getMiddleName());
+    type(By.name("lastname"), contactData.getLastName());
+    type(By.name("nickname"), contactData.getNickName());
+    type(By.name("title"), contactData.getTitle());
+    type(By.name("mobile"), contactData.getMobPhone());
+    type(By.name("email"), contactData.getEmail());
+    click(By.name("bday"));
+    selectFromList(By.name("bday"), contactData.getBday());
+    click(By.name("bmonth"));
+    selectFromList(By.name("bmonth"), contactData.getBmonth());
+    type(By.name("byear"), contactData.getByear());
   }
 
   public void selectContact() {
@@ -62,6 +48,10 @@ public class ContactHelper extends HelperBase{
 
   public void pressDeleteButton() {
     click(By.xpath("//input[@value='Delete']"));
+  }
+
+  public void initContactModification() {
+    click(By.xpath("//tr[last()]//img[@alt='Edit']"));
   }
 
 
