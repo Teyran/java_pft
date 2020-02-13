@@ -6,7 +6,7 @@ import ru.stqa.pft.adressbook.tests.TestBase;
 
 import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager extends TestBase {
+public class ApplicationManager {
   WebDriver wd;
   private SessionHelper sessionHelper;
   private NavigationHelper navigationHelper;

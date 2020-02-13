@@ -9,12 +9,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class ContactDeletionTests extends TestBase {
-
+  WebDriver wd;
   @Test
   public void testContactDeletion() throws Exception {
     app.getContactHelper().selectContact();
-    app.getContactHelper().acceptAllert();
     app.getContactHelper().pressDeleteButton();
+    app.getContactHelper().acceptAllert();
   }
 
 }

@@ -9,7 +9,7 @@ public class ContactData {
   private final String mobPhone;
   private final String email;
   private final String bday;
-  private final String month;
+  private final String bmonth;
   private final String byear;
 
   public ContactData(String firstName, String middleName, String lastName, String nickName, String title, String mobPhone, String email, String bday, String month, String byear) {
@@ -21,7 +21,7 @@ public class ContactData {
     this.mobPhone = mobPhone;
     this.email = email;
     this.bday = bday;
-    this.month = month;
+    this.bmonth = month;
     this.byear = byear;
   }
 
@@ -57,8 +57,8 @@ public class ContactData {
     return bday;
   }
 
-  public String getMonth() {
-    return month;
+  public String getBmonth() {
+    return bmonth;
   }
 
   public String getByear() {
