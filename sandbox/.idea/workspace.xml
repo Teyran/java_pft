@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f60b07a0-d90c-4c57-80b8-b1439c78e71f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XnEAEqtJhA76Y5FEtYVJR7aUdN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="EquationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sandbox.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.sandbox" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.EquationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.EquationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f60b07a0-d90c-4c57-80b8-b1439c78e71f" name="Default Changelist" comment="" />
+      <created>1581673312491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581673312491</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581676010180">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581676010180" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1581677325677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581677325677" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1581677325677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581677325677" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1581677325677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581677325677" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1581677325677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581677325677" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1581675986373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581675986373" />
+  </component>
+</project>
