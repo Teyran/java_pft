@@ -10,15 +10,34 @@ public class NavigationHelper extends HelperBase {
   }
 
   public void goToGroupPage() {
-    click(By.linkText("groups"));
+    if (isElementPresent(By.tagName("h1"))
+            && wd.findElement(By.tagName("h1")).getText().equals("Groups")
+            && isElementPresent(By.name("new"))) {
+        return;
+    }
+      click(By.linkText("groups"));
   }
   public void returnToGroupPage() {
+    if (isElementPresent(By.tagName("h1"))
+            && wd.findElement(By.tagName("h1")).getText().equals("Groups")
+            && isElementPresent(By.name("new"))) {
+      return;
+    }
     click(By.linkText("group page"));
   }
   public void returnToHomePage() {
-    wd.findElement(By.linkText("home page")).click();
+    if (isElementPresent(By.id("maintable"))) {
+      return;
+    }
+    click(By.linkText("home page"));
   }
+
   public void goToAddNewPage() {
-    wd.findElement(By.linkText("add new")).click();
+    if (isElementPresent(By.tagName("h1"))
+            && wd.findElement(By.tagName("h1")).getText().equals("Edit / add address book entry")
+            && isElementPresent(By.name("submit"))) {
+      return;
+    }
+    click(By.linkText("add new"));
   }
 }
