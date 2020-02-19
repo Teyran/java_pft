@@ -66,7 +66,7 @@
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationTest.testContactCreation">
+  <component name="RunManager" selected="TestNG.GroupModificationTests.testGroupModification">
     <configuration name="ContactCreationTest.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -85,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactModificationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactDeletionTests.testContactDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +94,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactModificationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactDeletionTests" />
+      <option name="METHOD_NAME" value="testContactDeletion" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupDeletionTests.testGroupDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.GroupDeletionTests" />
+      <option name="METHOD_NAME" value="testGroupDeletion" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
+        <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
+        <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
         <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
         <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
-        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
-        <item itemvalue="TestNG.ContactModificationTest" />
-        <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -232,22 +233,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="386" key="GridCell.Tab.0.bottom" timestamp="1581697481952">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1582123841150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="386" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581697481952" />
-    <state width="1323" height="386" key="GridCell.Tab.0.center" timestamp="1581697481952">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582123841150" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1582123841149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="386" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581697481952" />
-    <state width="1323" height="386" key="GridCell.Tab.0.left" timestamp="1581697481952">
+    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582123841149" />
+    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1582123841149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="386" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581697481952" />
-    <state width="1323" height="386" key="GridCell.Tab.0.right" timestamp="1581697481952">
+    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582123841149" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1582123841150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="386" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581697481952" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582123841150" />
     <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1580795528573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,10 +289,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1581091532354" />
-    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1581696619829">
+    <state x="465" y="167" width="607" height="536" key="find.popup" timestamp="1582121036219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581696619829" />
+    <state x="465" y="167" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582121036219" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1581585205605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
