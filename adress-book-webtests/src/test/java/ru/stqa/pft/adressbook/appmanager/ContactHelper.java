@@ -24,7 +24,7 @@ public class ContactHelper extends HelperBase{
     click(By.name("update"));
   }
 
-  public void  fillContactForm(ContactData contactData, boolean creation) {
+  public void fillContactForm(ContactData contactData, boolean creation) {
 
     type(By.name("firstname"), contactData.getFirstName());
     type(By.name("middlename"), contactData.getMiddleName());
