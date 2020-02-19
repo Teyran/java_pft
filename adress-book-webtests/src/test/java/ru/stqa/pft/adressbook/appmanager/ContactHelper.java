@@ -62,6 +62,19 @@ public class ContactHelper extends HelperBase{
     click(By.xpath("//tr[last()]//img[@alt='Edit']"));
   }
 
+  public void returnToHomePage() {
+    wd.findElement(By.linkText("home page")).click();
+  }
+
+  public boolean isThereAContact() {
+    return isElementPresent(By.name("selected[]"));
+  }
+
+  public void createContact(ContactData contact) {
+    fillContactForm(new ContactData("newName", "newMiddleName", "newLastName", "newNickName", "newTitle", "8888", "qwert@mail.ru", "11", "May", "1993", "TestGroup1"), true);
+    pressSubmitButton();
+    returnToHomePage();
+  }
 
 
 
