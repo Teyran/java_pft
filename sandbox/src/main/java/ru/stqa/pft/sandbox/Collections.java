@@ -11,7 +11,6 @@ public class Collections {
 
     List<String> languagues = Arrays.asList("Java", "C#", "Python", "PHP", "Swift");
 
-
     for (String l: languagues) {
       System.out.println("Я хочу выучить " + l);
     }
