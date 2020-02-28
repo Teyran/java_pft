@@ -5,6 +5,7 @@ import org.testng.annotations.*;
 import ru.stqa.pft.adressbook.model.GroupData;
 
 import javax.management.MBeanRegistration;
+import java.util.HashSet;
 import java.util.List;
 
 public class  GroupCreationTests extends TestBase {
@@ -14,9 +15,20 @@ public class  GroupCreationTests extends TestBase {
 
     app.getNavigationHelper().goToGroupPage();
     List<GroupData> before = app.getGroupHelper().getgroupList();
+    GroupData group = new GroupData("TestGroup1", null, null);
     app.getGroupHelper().createGroup(new GroupData("TestGroup1",null,null));
     List<GroupData> after = app.getGroupHelper().getgroupList();
     Assert.assertEquals(after.size(), before.size() + 1);
+
+    int max = 0;
+    for (GroupData g: after) {
+      if(g.getId() > max) {
+        max = g.getId();
+      }
+    }
+    group.setId(max);
+    before.add(group);
+    Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));
 
   }
 }
