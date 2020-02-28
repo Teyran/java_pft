@@ -66,7 +66,7 @@
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupModificationTests">
+  <component name="RunManager" selected="TestNG.GroupModificationTests.testGroupModification">
     <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -157,10 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
         <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
       </list>
     </recent_temporary>
@@ -203,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="236" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1581670097335" />
-    <state x="747" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1581093455669">
+    <state x="747" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1582881324411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="747" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581093455669" />
+    <state x="747" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582881324411" />
     <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581576735492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -231,38 +231,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1582295553006">
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom" timestamp="1582884379476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582295553006" />
-    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1582295553005">
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582884379476" />
+    <state width="1323" height="230" key="GridCell.Tab.0.center" timestamp="1582884379476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582295553005" />
-    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1582295553005">
+    <state width="1323" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582884379476" />
+    <state width="1323" height="230" key="GridCell.Tab.0.left" timestamp="1582884379476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582295553005" />
-    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1582295553005">
+    <state width="1323" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582884379476" />
+    <state width="1323" height="230" key="GridCell.Tab.0.right" timestamp="1582884379476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582295553005" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1580795528573">
+    <state width="1323" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582884379476" />
+    <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1582884379477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580795528573" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1580795528572">
+    <state width="1323" height="230" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582884379477" />
+    <state width="1323" height="230" key="GridCell.Tab.1.center" timestamp="1582884379477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580795528572" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1580795528572">
+    <state width="1323" height="230" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582884379477" />
+    <state width="1323" height="230" key="GridCell.Tab.1.left" timestamp="1582884379477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580795528572" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1580795528572">
+    <state width="1323" height="230" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582884379477" />
+    <state width="1323" height="230" key="GridCell.Tab.1.right" timestamp="1582884379477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580795528572" />
+    <state width="1323" height="230" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582884379477" />
     <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject" timestamp="1580228491776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -279,10 +279,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1580796611608" />
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1582185404559">
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1582875463254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582185404559" />
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582875463254" />
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog" timestamp="1581091532354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -299,5 +299,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="scopes/0.0.1366.728@0.0.1366.728" timestamp="1580224985821" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adressbook/tests/GroupModificationTests.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/Assert.java</url>
+          <line>1247</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
