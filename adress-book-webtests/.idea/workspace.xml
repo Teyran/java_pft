@@ -158,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
+        <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
         <item itemvalue="TestNG.GroupDeletionTests.testGroupDeletion" />
         <item itemvalue="TestNG.GroupModificationTests" />
-        <item itemvalue="TestNG.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -231,22 +231,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="113" key="GridCell.Tab.0.bottom" timestamp="1583076407176">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom" timestamp="1583079774018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583076407176" />
-    <state width="1323" height="113" key="GridCell.Tab.0.center" timestamp="1583076407174">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583079774018" />
+    <state width="1323" height="254" key="GridCell.Tab.0.center" timestamp="1583079774018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583076407174" />
-    <state width="1323" height="113" key="GridCell.Tab.0.left" timestamp="1583076407174">
+    <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583079774018" />
+    <state width="1323" height="254" key="GridCell.Tab.0.left" timestamp="1583079774018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583076407174" />
-    <state width="1323" height="113" key="GridCell.Tab.0.right" timestamp="1583076407176">
+    <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583079774018" />
+    <state width="1323" height="254" key="GridCell.Tab.0.right" timestamp="1583079774018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583076407176" />
+    <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583079774018" />
     <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1582884379477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -303,11 +303,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adressbook/tests/GroupModificationTests.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/Assert.java</url>
           <line>1247</line>
