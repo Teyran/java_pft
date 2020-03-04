@@ -1,17 +1,8 @@
 package ru.stqa.pft.adressbook.tests;
 
 import java.util.List;
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import static java.lang.Thread.sleep;
-import static org.testng.Assert.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 import ru.stqa.pft.adressbook.model.ContactData;
 
 public class ContactDeletionTests extends TestBase {

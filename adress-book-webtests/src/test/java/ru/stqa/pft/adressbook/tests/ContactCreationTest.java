@@ -1,15 +1,9 @@
 package ru.stqa.pft.adressbook.tests;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.Select;
-import ru.stqa.pft.adressbook.appmanager.ContactHelper;
 import ru.stqa.pft.adressbook.model.ContactData;
-import ru.stqa.pft.adressbook.tests.TestBase;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
