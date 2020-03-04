@@ -25,7 +25,7 @@ public class  GroupCreationTests extends TestBase {
 //    before.add(group);
 //    Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));
 
-//    2 СПОСОБ СРАВНЕНИЯ.СОРТИВКА СПИСКОВ И СРАВНЕНИЕ БЕЗ УЧЕТА ИДЕНТИФИКАТОРА(Так как предварительно списки отсоритированы)
+//  2 СПОСОБ СРАВНЕНИЯ.СОРТИВКА СПИСКОВ И СРАВНЕНИЕ БЕЗ УЧЕТА ИДЕНТИФИКАТОРА(Так как предварительно списки отсоритированы)
     before.add(group);
     Comparator<? super GroupData> byId = (g1, g2) -> Integer.compare(g1.getId(), g2.getId());
     before.sort(byId);

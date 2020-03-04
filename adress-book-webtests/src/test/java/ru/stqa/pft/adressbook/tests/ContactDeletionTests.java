@@ -1,8 +1,13 @@
 package ru.stqa.pft.adressbook.tests;
 
+import java.util.List;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
+
+import org.testng.Assert;
 import org.testng.annotations.*;
+
+import static java.lang.Thread.sleep;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,9 +21,19 @@ public class ContactDeletionTests extends TestBase {
     if (!app.getContactHelper().isThereAContact()) {
       app.getContactHelper().createContact(new ContactData("newName", "newMiddleName", "newLastName", "newNickName", "newTitle", "8888", "qwert@mail.ru", "11", "May", "1993", "TestGroup1"));
     }
-    app.getContactHelper().selectContact();
+    List<ContactData> before = app.getContactHelper().getContactList();
+
+    app.getContactHelper().selectContact(before.size() - 1);
     app.getContactHelper().pressDeleteButton();
     app.getContactHelper().acceptAllert();
+    String contactDelMessage = app.getContactHelper().getSuccessfullDeletionMessage();
+    Assert.assertEquals(contactDelMessage, "Record successful deleted");
+    app.getNavigationHelper().goToHomePage();
+    List<ContactData> after = app.getContactHelper().getContactList();
+    Assert.assertEquals(after.size(), before.size() - 1);
+
+    before.remove(before.size()-1);
+    Assert.assertEquals(after, before);
   }
 
 }

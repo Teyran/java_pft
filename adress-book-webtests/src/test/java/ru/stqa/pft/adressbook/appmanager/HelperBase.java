@@ -47,4 +47,10 @@ public class HelperBase {
       return false;
     }
   }
+
+  protected String  readTextFrom (By locator) {
+    return wd.findElement(locator).getText();
+  }
+
+
 }

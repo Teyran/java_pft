@@ -1,14 +1,14 @@
 package ru.stqa.pft.adressbook.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import ru.stqa.pft.adressbook.model.ContactData;
+import ru.stqa.pft.adressbook.model.GroupData;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends HelperBase{
 
@@ -46,8 +46,8 @@ public class ContactHelper extends HelperBase{
     }
   }
 
-  public void selectContact() {
-    click(By.name("selected[]"));
+  public void selectContact(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
   }
 
   public void acceptAllert() {
@@ -71,11 +71,39 @@ public class ContactHelper extends HelperBase{
   }
 
   public void createContact(ContactData contact) {
-    fillContactForm(new ContactData("newName", "newMiddleName", "newLastName", "newNickName", "newTitle", "8888", "qwert@mail.ru", "11", "May", "1993", "TestGroup1"), true);
+    fillContactForm(contact, true);
     pressSubmitButton();
     returnToHomePage();
   }
 
+  public List<GroupData> getGroupList() {
+    List<GroupData> groups = new ArrayList<>();
+    List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
+    for (WebElement element: elements) {
+      String name = element.getText();
+      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+      GroupData group = new GroupData(id, name, null, null);
+      groups.add(group);
+    }
+    return groups;
+  }
 
+  public List<ContactData> getContactList() {
+    List <ContactData> contacts = new ArrayList<>();
+    WebElement table = wd.findElement(By.xpath("//table[@id='maintable']"));
+    List <WebElement> rows = table.findElements(By.xpath("//tr[@name='entry']"));
+
+    for (WebElement row: rows) {
+      String firstName = row.findElement(By.xpath("./td[3]")).getText();
+      String lastName = row.findElement(By.xpath("./td[2]")).getText();
+      int id = Integer.parseInt(row.findElement(By.tagName("input")).getAttribute("value"));
+      contacts.add(new ContactData(id, firstName, lastName, null, null, null, null, null, null, null, null, null));
+    }
+    return contacts;
+  }
+
+  public String getSuccessfullDeletionMessage() {
+    return readTextFrom(By.className("msgbox"));
+  }
 
 }
