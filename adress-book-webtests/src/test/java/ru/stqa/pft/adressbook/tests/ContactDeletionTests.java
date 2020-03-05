@@ -6,7 +6,7 @@ import org.testng.annotations.*;
 import ru.stqa.pft.adressbook.model.ContactData;
 
 public class ContactDeletionTests extends TestBase {
-  @Test
+  @Test(enabled = false)
   public void testContactDeletion() throws Exception {
     app.getNavigationHelper().goToAddNewPage();
     if (!app.getContactHelper().isThereAContact()) {

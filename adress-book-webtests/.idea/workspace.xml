@@ -66,7 +66,7 @@
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactModificationTest.testContactModification">
+  <component name="RunManager" selected="TestNG.ru.stqa.pft.adressbook.tests">
     <configuration name="ContactCreationTest.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -121,23 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="adress-book-webtests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.GroupCreationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -156,13 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.stqa.pft.adressbook.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adress-book-webtests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ru.stqa.pft.adressbook.tests" />
         <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
         <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
         <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
-        <item itemvalue="TestNG.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -233,22 +232,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1583394216591">
+    <state width="1323" height="282" key="GridCell.Tab.0.bottom" timestamp="1583403342318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1583394216591">
+    <state width="1323" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583403342318" />
+    <state width="1323" height="282" key="GridCell.Tab.0.center" timestamp="1583403342315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1583394216591">
+    <state width="1323" height="282" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583403342315" />
+    <state width="1323" height="282" key="GridCell.Tab.0.left" timestamp="1583403342312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1583394216591">
+    <state width="1323" height="282" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583403342312" />
+    <state width="1323" height="282" key="GridCell.Tab.0.right" timestamp="1583403342316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
+    <state width="1323" height="282" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583403342316" />
     <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1582884379477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -281,18 +280,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1583335944836" />
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1583155760230">
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1583400177420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583155760230" />
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583400177420" />
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog" timestamp="1581091532354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1581091532354" />
-    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583394284386">
+    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583394794328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583394284386" />
+    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583394794328" />
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1583313116401">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
