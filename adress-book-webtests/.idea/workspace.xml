@@ -66,7 +66,7 @@
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationTest.testContactCreation">
+  <component name="RunManager" selected="TestNG.ContactModificationTest.testContactModification">
     <configuration name="ContactCreationTest.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -158,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
         <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
         <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
-        <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
         <item itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
         <item itemvalue="TestNG.GroupCreationTests" />
       </list>
@@ -233,22 +233,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1583338806283">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1583394216591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583338806283" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1583338806283">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
+    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1583394216591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583338806283" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1583338806283">
+    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
+    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1583394216591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583338806283" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1583338806283">
+    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1583394216591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583338806283" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583394216591" />
     <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1582884379477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -289,10 +289,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1581091532354" />
-    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583336095432">
+    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583394284386">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583336095432" />
+    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583394284386" />
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1583313116401">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
