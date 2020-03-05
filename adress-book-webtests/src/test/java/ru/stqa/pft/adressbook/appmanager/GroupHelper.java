@@ -50,7 +50,7 @@ public class GroupHelper extends HelperBase {
 
   public void create(GroupData group) {
     initGroupCreation();
-    fillGroupForm(new GroupData("TestGroup1","TestGroup2","TestGroup3"));
+    fillGroupForm(group);
     submitGroupCreation();
     returnToGroupPage();
   }
@@ -83,8 +83,7 @@ public class GroupHelper extends HelperBase {
     for (WebElement element: elements) {
       String name = element.getText();
       int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      GroupData group = new GroupData(id, name, null, null);
-      groups.add(group);
+      groups.add(new GroupData().withId(id).withName(name));
     }
     return groups;
   }
