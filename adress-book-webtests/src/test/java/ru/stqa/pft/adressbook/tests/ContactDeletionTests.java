@@ -8,7 +8,7 @@ import ru.stqa.pft.adressbook.model.ContactData;
 public class ContactDeletionTests extends TestBase {
   @Test(enabled = false)
   public void testContactDeletion() throws Exception {
-    app.getNavigationHelper().goToAddNewPage();
+    app.goTo().goToAddNewPage();
     if (!app.getContactHelper().isThereAContact()) {
       app.getContactHelper().createContact(new ContactData("newName", "newMiddleName", "newLastName", "newNickName", "newTitle", "8888", "qwert@mail.ru", "11", "May", "1993", "TestGroup1"));
     }
@@ -19,7 +19,7 @@ public class ContactDeletionTests extends TestBase {
     app.getContactHelper().acceptAllert();
     String contactDelMessage = app.getContactHelper().getSuccessfullDeletionMessage();
     Assert.assertEquals(contactDelMessage, "Record successful deleted");
-    app.getNavigationHelper().goToHomePage();
+    app.goTo().goToHomePage();
     List<ContactData> after = app.getContactHelper().getContactList();
     Assert.assertEquals(after.size(), before.size() - 1);
 
