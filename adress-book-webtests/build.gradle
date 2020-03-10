@@ -9,7 +9,7 @@ repositories {
 dependencies {
     compile 'org.testng:testng:7.0.0'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0-alpha-4'
-
+    implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
 }
 
 test {
