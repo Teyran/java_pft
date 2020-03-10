@@ -66,33 +66,29 @@ public class ContactHelper extends HelperBase{
     wd.findElement(By.linkText("home page")).click();
   }
 
-  public boolean isThereAContact() {
-    return isElementPresent(By.name("selected[]"));
-  }
-
-  public void createContact(ContactData contact) {
+  public void create(ContactData contact) {
     fillContactForm(contact, true);
     pressSubmitButton();
     returnToHomePage();
   }
 
-  public List<GroupData> getGroupList() {
-    List<GroupData> groups = new ArrayList<>();
-    List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
-    for (WebElement element: elements) {
-      String name = element.getText();
-      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      GroupData group = new GroupData().withId(id).withName(name);
-      groups.add(group);
-    }
-    return groups;
+  public void modify(int index, ContactData contact) {
+    initContactModification(index);
+    fillContactForm( contact, false);
+    submitContactModification();
+    returnToHomePage();
   }
 
-  public List<ContactData> getContactList() {
+  public void delete(int index) {
+    selectContact(index);
+    pressDeleteButton();
+    acceptAllert();
+  }
+  
+  public List<ContactData> list() {
     List <ContactData> contacts = new ArrayList<>();
     WebElement table = wd.findElement(By.xpath("//table[@id='maintable']"));
     List <WebElement> rows = table.findElements(By.xpath("//tr[@name='entry']"));
-
     for (WebElement row: rows) {
       String firstName = row.findElement(By.xpath("./td[3]")).getText();
       String lastName = row.findElement(By.xpath("./td[2]")).getText();
