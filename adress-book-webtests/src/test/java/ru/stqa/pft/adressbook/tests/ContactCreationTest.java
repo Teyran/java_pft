@@ -9,10 +9,11 @@ import java.util.List;
 
 public class ContactCreationTest extends TestBase {
 
-  @Test(enabled = false)
+  @Test(enabled = true)
   public void testContactCreation() throws Exception {
     List<ContactData> before = app.contact().list();
-    ContactData contact = new ContactData("newName", "newLastName", "newMiddleName", "newNickName", "newTitle", "8888", "qwert@mail.ru", "11", "May", "1993", "TestGroup1");
+    ContactData contact = new ContactData().
+            withFirstName("newName").withLastName("newLastName").withMiddleName("newMiddleName").withNickName("newNickName").withTitle("newTitle").withMobPhone("8888").withEmail("qwert@mail.ru").withBday("11").withBmonth("May").withByear("1993").withGroup("TestGroup1");
     app.goTo().addNewPage();
     app.contact().create(contact);
     List<ContactData> after = app.contact().list();

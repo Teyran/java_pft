@@ -3,47 +3,22 @@ package ru.stqa.pft.adressbook.model;
 import java.util.Objects;
 
 public class ContactData {
-  private final int id;
-  private final String firstName;
-  private final String middleName;
-  private final String lastName;
-  private final String nickName;
-  private final String title;
-  private final String mobPhone;
-  private final String email;
-  private final String bday;
-  private final String bmonth;
-  private final String byear;
-  private final String group;
+  private int id = Integer.MAX_VALUE;
+  private String firstName;
+  private String middleName;
+  private String lastName;
+  private String nickName;
+  private String title;
+  private String mobPhone;
+  private String email;
+  private String bday;
+  private String bmonth;
+  private String byear;
+  private String group;
 
-  public ContactData(int id, String firstName, String lastName, String middleName, String nickName, String title, String mobPhone, String email, String bday, String month, String byear, String group) {
-    this.id = id;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.middleName = middleName;
-    this.nickName = nickName;
-    this.title = title;
-    this.mobPhone = mobPhone;
-    this.email = email;
-    this.bday = bday;
-    this.bmonth = month;
-    this.byear = byear;
-    this.group = group;
-  }
 
-  public ContactData( String firstName, String lastName, String middleName, String nickName, String title, String mobPhone, String email, String bday, String month, String byear, String group) {
-    this.id = Integer.MAX_VALUE;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.middleName = middleName;
-    this.nickName = nickName;
-    this.title = title;
-    this.mobPhone = mobPhone;
-    this.email = email;
-    this.bday = bday;
-    this.bmonth = month;
-    this.byear = byear;
-    this.group = group;
+  public ContactData() {
+
   }
 
   @Override
@@ -99,6 +74,66 @@ public class ContactData {
             "firstName='" + firstName + '\'' +
             ", lastName='" + lastName + '\'' +
             '}';
+  }
+
+  public ContactData withId(int id) {
+    this.id = id;
+    return this;
+  }
+
+  public ContactData withFirstName(String firstName) {
+    this.firstName = firstName;
+    return this;
+  }
+
+  public ContactData withMiddleName(String middleName) {
+    this.middleName = middleName;
+    return this;
+  }
+
+  public ContactData withLastName(String lastName) {
+    this.lastName = lastName;
+    return this;
+  }
+
+  public ContactData withNickName(String nickName) {
+    this.nickName = nickName;
+    return this;
+  }
+
+  public ContactData withTitle(String title) {
+    this.title = title;
+    return this;
+  }
+
+  public ContactData withMobPhone(String mobPhone) {
+    this.mobPhone = mobPhone;
+    return this;
+  }
+
+  public ContactData withEmail(String email) {
+    this.email = email;
+    return this;
+  }
+
+  public ContactData withBday(String bday) {
+    this.bday = bday;
+    return this;
+  }
+
+  public ContactData withBmonth(String bmonth) {
+    this.bmonth = bmonth;
+    return this;
+  }
+
+  public ContactData withByear(String byear) {
+    this.byear = byear;
+    return this;
+  }
+
+  public ContactData withGroup(String group) {
+    this.group = group;
+    return this;
   }
 
   public String getBmonth() {

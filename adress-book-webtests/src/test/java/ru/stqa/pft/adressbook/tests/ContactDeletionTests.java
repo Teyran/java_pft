@@ -8,13 +8,13 @@ import ru.stqa.pft.adressbook.model.ContactData;
 public class ContactDeletionTests extends TestBase {
   @BeforeMethod
   public void ensurePreconditions() {
-    app.goTo().addNewPage();
     if (app.contact().list().size() == 0) {
-      app.contact().create(new ContactData("newName", "newMiddleName", "newLastName", "newNickName", "newTitle", "8888", "qwert@mail.ru", "11", "May", "1993", "TestGroup1"));
+      app.contact().create(new ContactData().
+              withFirstName("newName").withLastName("newLastName").withMiddleName("newMiddleName").withNickName("newNickName").withTitle("newTitle").withMobPhone("8888").withEmail("qwert@mail.ru").withBday("11").withBmonth("May").withByear("1993").withGroup("TestGroup1"));
     }
   }
 
-  @Test(enabled = false)
+  @Test(enabled = true)
   public void testContactDeletion() throws Exception {
     List<ContactData> before = app.contact().list();
     int index = before.size() - 1;
