@@ -18,6 +18,10 @@ public class ContactHelper extends HelperBase{
     super(wd);
   }
 
+  public int count() {
+    return wd.findElements(By.name("selected[]")).size();
+  }
+
   public void pressSubmitButton() {
     click(By.xpath("(//input[@name='submit'])[2]"));
   }
