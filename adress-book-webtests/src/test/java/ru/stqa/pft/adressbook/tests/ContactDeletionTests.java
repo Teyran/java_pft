@@ -1,6 +1,8 @@
 package ru.stqa.pft.adressbook.tests;
 
 import java.util.List;
+import java.util.Set;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 import ru.stqa.pft.adressbook.model.ContactData;
@@ -16,16 +18,16 @@ public class ContactDeletionTests extends TestBase {
 
   @Test(enabled = true)
   public void testContactDeletion() throws Exception {
-    List<ContactData> before = app.contact().list();
-    int index = before.size() - 1;
-    app.contact().delete(index);
+    Set<ContactData> before = app.contact().all();
+    ContactData deletedContact = before.iterator().next();
+    app.contact().delete(deletedContact);
     String contactDelMessage = app.contact().getSuccessfullDeletionMessage();
     Assert.assertEquals(contactDelMessage, "Record successful deleted");
     app.goTo().goToHomePage();
-    List<ContactData> after = app.contact().list();
+    Set<ContactData> after = app.contact().all();
     Assert.assertEquals(after.size(), before.size() - 1);
 
-    before.remove(before.size()-1);
+    before.remove(deletedContact);
     Assert.assertEquals(after, before);
   }
 

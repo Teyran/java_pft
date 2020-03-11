@@ -67,7 +67,25 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.ru.stqa.pft.adressbook.tests">
-    <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactCreationTest.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adress-book-webtests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactCreationTest" />
+      <option name="METHOD_NAME" value="testContactCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactDeletionTests.testContactDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +95,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactDeletionTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testContactDeletion" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -101,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactModificationTest.testContactModification" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
         <pattern>
@@ -110,25 +129,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.GroupDeletionTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="adress-book-webtests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.GroupModificationTests" />
-      <option name="METHOD_NAME" value="testGroupModification" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactModificationTest" />
+      <option name="METHOD_NAME" value="testContactModification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ru.stqa.pft.adressbook.tests" />
+        <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
+        <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
+        <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
         <item itemvalue="TestNG.ContactModificationTest" />
-        <item itemvalue="TestNG.ContactDeletionTests" />
-        <item itemvalue="TestNG.GroupDeletionTests" />
-        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
       </list>
     </recent_temporary>
   </component>
@@ -201,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="236" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1582890552979" />
-    <state x="726" y="112" key="#com.intellij.ide.util.MemberChooser" timestamp="1583847812724">
+    <state x="726" y="112" key="#com.intellij.ide.util.MemberChooser" timestamp="1583852649599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="726" y="112" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583847812724" />
+    <state x="726" y="112" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583852649599" />
     <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581576735492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -229,22 +231,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="197" key="GridCell.Tab.0.bottom" timestamp="1583850766988">
+    <state width="1323" height="197" key="GridCell.Tab.0.bottom" timestamp="1583920059365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583850766988" />
-    <state width="1323" height="197" key="GridCell.Tab.0.center" timestamp="1583850766987">
+    <state width="1323" height="197" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583920059365" />
+    <state width="1323" height="197" key="GridCell.Tab.0.center" timestamp="1583920059365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583850766987" />
-    <state width="1323" height="197" key="GridCell.Tab.0.left" timestamp="1583850766987">
+    <state width="1323" height="197" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583920059365" />
+    <state width="1323" height="197" key="GridCell.Tab.0.left" timestamp="1583920059365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583850766987" />
-    <state width="1323" height="197" key="GridCell.Tab.0.right" timestamp="1583850766988">
+    <state width="1323" height="197" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583920059365" />
+    <state width="1323" height="197" key="GridCell.Tab.0.right" timestamp="1583920059365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583850766988" />
+    <state width="1323" height="197" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583920059365" />
     <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1583850520400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -277,18 +279,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="131" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1583849768977" />
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1583828300779">
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1583916114745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583828300779" />
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583916114745" />
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog" timestamp="1583846986227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1583846986227" />
-    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583850283366">
+    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583855945304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583850283366" />
+    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583855945304" />
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1583313116401">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
