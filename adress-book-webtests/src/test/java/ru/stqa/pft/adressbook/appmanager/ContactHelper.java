@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import ru.stqa.pft.adressbook.model.ContactData;
+import ru.stqa.pft.adressbook.model.Contacts;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -99,8 +100,8 @@ public class ContactHelper extends HelperBase{
     return contacts;
   }
 
-  public Set<ContactData> all() {
-    Set<ContactData> contacts = new HashSet<ContactData>();
+  public Contacts all() {
+    Contacts contacts = new Contacts();
     WebElement table = wd.findElement(By.xpath("//table[@id='maintable']"));
     List <WebElement> rows = table.findElements(By.xpath("//tr[@name='entry']"));
     for (WebElement row: rows) {
