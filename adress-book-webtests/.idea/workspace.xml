@@ -66,25 +66,7 @@
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ru.stqa.pft.adressbook.tests">
-    <configuration name="ContactCreationTest.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="adress-book-webtests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactCreationTest" />
-      <option name="METHOD_NAME" value="testContactCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ContactPhoneTests.testContactPhones">
     <configuration name="ContactDeletionTests.testContactDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -114,6 +96,24 @@
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactModificationTest" />
       <option name="METHOD_NAME" value="testContactModification" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactPhoneTests.testContactPhones" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adress-book-webtests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactPhoneTests" />
+      <option name="METHOD_NAME" value="testContactPhones" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactPhoneTests.testContactPhones" />
         <item itemvalue="TestNG.ru.stqa.pft.adressbook.tests" />
         <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
         <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
         <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
-        <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -232,38 +232,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom" timestamp="1583932031874">
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom" timestamp="1584012303711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583932031874" />
-    <state width="1323" height="244" key="GridCell.Tab.0.center" timestamp="1583932031874">
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584012303711" />
+    <state width="1323" height="213" key="GridCell.Tab.0.center" timestamp="1584012303711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583932031874" />
-    <state width="1323" height="244" key="GridCell.Tab.0.left" timestamp="1583932031873">
+    <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584012303711" />
+    <state width="1323" height="213" key="GridCell.Tab.0.left" timestamp="1584012303711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583932031873" />
-    <state width="1323" height="244" key="GridCell.Tab.0.right" timestamp="1583932031874">
+    <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584012303711" />
+    <state width="1323" height="213" key="GridCell.Tab.0.right" timestamp="1584012303711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583932031874" />
-    <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1583850520400">
+    <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584012303711" />
+    <state width="1323" height="342" key="GridCell.Tab.1.bottom" timestamp="1584011293273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583850520400" />
-    <state width="1323" height="230" key="GridCell.Tab.1.center" timestamp="1583850520400">
+    <state width="1323" height="342" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584011293273" />
+    <state width="1323" height="342" key="GridCell.Tab.1.center" timestamp="1584011293273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583850520400" />
-    <state width="1323" height="230" key="GridCell.Tab.1.left" timestamp="1583850520400">
+    <state width="1323" height="342" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584011293273" />
+    <state width="1323" height="342" key="GridCell.Tab.1.left" timestamp="1584011293273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583850520400" />
-    <state width="1323" height="230" key="GridCell.Tab.1.right" timestamp="1583850520400">
+    <state width="1323" height="342" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584011293273" />
+    <state width="1323" height="342" key="GridCell.Tab.1.right" timestamp="1584011293273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583850520400" />
+    <state width="1323" height="342" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584011293273" />
     <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject" timestamp="1580228491776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,14 +288,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1583846986227" />
-    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583931421079">
+    <state x="594" y="166" width="607" height="536" key="find.popup" timestamp="1583932573798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583931421079" />
-    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1583313116401">
+    <state x="594" y="166" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583932573798" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584012010545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1583313116401" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1584012010545" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1583480372735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

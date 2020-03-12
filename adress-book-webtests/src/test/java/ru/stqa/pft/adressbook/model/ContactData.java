@@ -10,6 +10,8 @@ public class ContactData {
   private String nickName;
   private String title;
   private String mobPhone;
+  private String workPhone;
+  private String homePhone;
   private String email;
   private String bday;
   private String bmonth;
@@ -65,16 +67,30 @@ public class ContactData {
     return title;
   }
 
+  public String getHomePhone () {
+    return homePhone;
+  }
   public String getMobPhone() {
     return mobPhone;
   }
-
+  public String getWorkPhone() {
+    return workPhone;
+  }
   public String getEmail() {
     return email;
   }
-
   public String getBday() {
     return bday;
+  }
+  public String getBmonth() {
+    return bmonth;
+  }
+  public String getByear() {
+    return byear;
+  }
+  public String getGroup() { return group; }
+  public int getId() {
+    return id;
   }
 
   public ContactData withId(int id) {
@@ -107,8 +123,18 @@ public class ContactData {
     return this;
   }
 
+  public ContactData withHomePhone(String homePhone) {
+    this.homePhone = homePhone;
+    return this;
+  }
+
   public ContactData withMobPhone(String mobPhone) {
     this.mobPhone = mobPhone;
+    return this;
+  }
+
+  public ContactData withWorkPhone(String workPhone) {
+    this.workPhone = workPhone;
     return this;
   }
 
@@ -137,17 +163,4 @@ public class ContactData {
     return this;
   }
 
-  public String getBmonth() {
-    return bmonth;
-  }
-
-  public String getByear() {
-    return byear;
-  }
-
-  public String getGroup() { return group; }
-
-  public int getId() {
-    return id;
-  }
 }
