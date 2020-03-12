@@ -66,8 +66,8 @@
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactPhoneTests.testContactPhones">
-    <configuration name="ContactDeletionTests.testContactDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ContactEmailTests">
+    <configuration name="ContactEmailTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
         <pattern>
@@ -76,9 +76,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactDeletionTests" />
-      <option name="METHOD_NAME" value="testContactDeletion" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactEmailTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactEmailTests" />
         <item itemvalue="TestNG.ContactPhoneTests.testContactPhones" />
         <item itemvalue="TestNG.ru.stqa.pft.adressbook.tests" />
         <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
         <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
-        <item itemvalue="TestNG.ContactDeletionTests.testContactDeletion" />
       </list>
     </recent_temporary>
   </component>
@@ -204,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="236" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1582890552979" />
-    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1584014648248">
+    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1584032839594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584014648248" />
+    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584032839594" />
     <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581576735492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,38 +231,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom" timestamp="1584028506604">
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom" timestamp="1584035918486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584028506604" />
-    <state width="1323" height="245" key="GridCell.Tab.0.center" timestamp="1584028506604">
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
+    <state width="1323" height="145" key="GridCell.Tab.0.center" timestamp="1584035918486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584028506604" />
-    <state width="1323" height="245" key="GridCell.Tab.0.left" timestamp="1584028506603">
+    <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
+    <state width="1323" height="145" key="GridCell.Tab.0.left" timestamp="1584035918486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584028506603" />
-    <state width="1323" height="245" key="GridCell.Tab.0.right" timestamp="1584028506604">
+    <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
+    <state width="1323" height="145" key="GridCell.Tab.0.right" timestamp="1584035918486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584028506604" />
-    <state width="1323" height="245" key="GridCell.Tab.1.bottom" timestamp="1584028506606">
+    <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
+    <state width="1323" height="245" key="GridCell.Tab.1.bottom" timestamp="1584035916696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584028506606" />
-    <state width="1323" height="245" key="GridCell.Tab.1.center" timestamp="1584028506605">
+    <state width="1323" height="245" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
+    <state width="1323" height="245" key="GridCell.Tab.1.center" timestamp="1584035916696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584028506605" />
-    <state width="1323" height="245" key="GridCell.Tab.1.left" timestamp="1584028506605">
+    <state width="1323" height="245" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
+    <state width="1323" height="245" key="GridCell.Tab.1.left" timestamp="1584035916696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584028506605" />
-    <state width="1323" height="245" key="GridCell.Tab.1.right" timestamp="1584028506605">
+    <state width="1323" height="245" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
+    <state width="1323" height="245" key="GridCell.Tab.1.right" timestamp="1584035916696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584028506605" />
+    <state width="1323" height="245" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
     <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject" timestamp="1580228491776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -288,10 +287,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1583846986227" />
-    <state x="594" y="122" width="607" height="606" key="find.popup" timestamp="1584028106733">
+    <state x="594" y="122" width="607" height="606" key="find.popup" timestamp="1584034459382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="594" y="122" width="607" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584028106733" />
+    <state x="594" y="122" width="607" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584034459382" />
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584012010545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -312,16 +311,6 @@
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/Assert.java</url>
           <line>1247</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adressbook/model/ContactData.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/adressbook/appmanager/ContactHelper.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
