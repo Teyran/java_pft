@@ -41,6 +41,7 @@ public class ContactHelper extends HelperBase{
     type(By.name("mobile"), contactData.getMobPhone());
     type(By.name("work"), contactData.getWorkPhone());
     type(By.name("email"), contactData.getEmail());
+    attach(By.name("photo"), contactData.getPhoto());
     click(By.name("bday"));
     selectFromList(By.name("bday"), contactData.getBday());
     click(By.name("bmonth"));

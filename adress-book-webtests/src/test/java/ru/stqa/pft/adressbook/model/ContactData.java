@@ -2,6 +2,7 @@ package ru.stqa.pft.adressbook.model;
 
 import ru.stqa.pft.adressbook.tests.ContactPhoneTests;
 
+import java.io.File;
 import java.util.Objects;
 
 public class ContactData {
@@ -23,6 +24,16 @@ public class ContactData {
   private String byear;
   private String group;
   private String allPhones;
+  private File photo;
+
+  public File getPhoto() {
+    return photo;
+  }
+
+  public ContactData withPhoto(File photo) {
+    this.photo = photo;
+    return this;
+  }
 
   public String getEmail() {
     return email;

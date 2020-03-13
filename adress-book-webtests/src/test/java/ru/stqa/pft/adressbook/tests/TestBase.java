@@ -7,7 +7,7 @@ import ru.stqa.pft.adressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
-  public static final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
+  public static final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
 
 
   @BeforeSuite(alwaysRun = true)

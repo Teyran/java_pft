@@ -61,12 +61,51 @@
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ProgramWork\Development\java_pft\adress-book-webtests\src\test\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.adressbook.appmanager" />
       <recent name="ru.stqa.pft.adressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactEmailTests">
+  <component name="RunManager" selected="TestNG.ContactCreationTest.testContactCreation">
+    <configuration name="ContactCreationTest.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adress-book-webtests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactCreationTest" />
+      <option name="METHOD_NAME" value="testContactCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactCreationTest.testCurrentDir" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="adress-book-webtests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactCreationTest" />
+      <option name="METHOD_NAME" value="testCurrentDir" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactEmailTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -84,24 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactModificationTest.testContactModification" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="adress-book-webtests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactModificationTest" />
-      <option name="METHOD_NAME" value="testContactModification" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ContactPhoneTests.testContactPhones" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="adress-book-webtests.test" />
       <extension name="coverage">
@@ -113,24 +134,6 @@
       <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.ContactPhoneTests" />
       <option name="METHOD_NAME" value="testContactPhones" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="adress-book-webtests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.adressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.adressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.adressbook.tests.GroupModificationTests" />
-      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactCreationTest.testContactCreation" />
+        <item itemvalue="TestNG.ContactCreationTest.testCurrentDir" />
         <item itemvalue="TestNG.ContactEmailTests" />
         <item itemvalue="TestNG.ContactPhoneTests.testContactPhones" />
         <item itemvalue="TestNG.ru.stqa.pft.adressbook.tests" />
-        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
-        <item itemvalue="TestNG.ContactModificationTest.testContactModification" />
       </list>
     </recent_temporary>
   </component>
@@ -203,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="236" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1582890552979" />
-    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1584032839594">
+    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1584087339055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584032839594" />
+    <state x="726" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584087339055" />
     <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581576735492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,10 +218,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="117" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1581694319129" />
-    <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580224795062">
+    <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584094512108">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1580224795062" />
+    <state x="479" y="224" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1584094512108" />
     <state x="17" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581586556357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -231,38 +234,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581673312431" />
-    <state width="1323" height="145" key="GridCell.Tab.0.bottom" timestamp="1584035918486">
+    <state width="1323" height="280" key="GridCell.Tab.0.bottom" timestamp="1584094640919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
-    <state width="1323" height="145" key="GridCell.Tab.0.center" timestamp="1584035918486">
+    <state width="1323" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584094640919" />
+    <state width="1323" height="280" key="GridCell.Tab.0.center" timestamp="1584094640919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
-    <state width="1323" height="145" key="GridCell.Tab.0.left" timestamp="1584035918486">
+    <state width="1323" height="280" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584094640919" />
+    <state width="1323" height="280" key="GridCell.Tab.0.left" timestamp="1584094640918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
-    <state width="1323" height="145" key="GridCell.Tab.0.right" timestamp="1584035918486">
+    <state width="1323" height="280" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584094640918" />
+    <state width="1323" height="280" key="GridCell.Tab.0.right" timestamp="1584094640919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584035918486" />
-    <state width="1323" height="245" key="GridCell.Tab.1.bottom" timestamp="1584035916696">
+    <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584094640919" />
+    <state width="1323" height="280" key="GridCell.Tab.1.bottom" timestamp="1584094640920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
-    <state width="1323" height="245" key="GridCell.Tab.1.center" timestamp="1584035916696">
+    <state width="1323" height="280" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584094640920" />
+    <state width="1323" height="280" key="GridCell.Tab.1.center" timestamp="1584094640919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
-    <state width="1323" height="245" key="GridCell.Tab.1.left" timestamp="1584035916696">
+    <state width="1323" height="280" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584094640919" />
+    <state width="1323" height="280" key="GridCell.Tab.1.left" timestamp="1584094640919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
-    <state width="1323" height="245" key="GridCell.Tab.1.right" timestamp="1584035916696">
+    <state width="1323" height="280" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584094640919" />
+    <state width="1323" height="280" key="GridCell.Tab.1.right" timestamp="1584094640920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="245" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584035916696" />
+    <state width="1323" height="280" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584094640920" />
     <state x="427" y="0" width="512" height="713" key="RefactorJ.IntroduceParameterObject" timestamp="1580228491776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -279,10 +282,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="111" y="131" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1583849768977" />
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1583916114745">
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1584084749964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583916114745" />
+    <state x="448" y="201" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584084749964" />
     <state x="376" y="123" width="540" height="496" key="extract.method.dialog" timestamp="1583846986227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
