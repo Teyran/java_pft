@@ -17,19 +17,18 @@ public class  GroupCreationTests extends TestBase {
   @DataProvider
   public Iterator<Object[]> validGroups() {
     List<Object[]> list = new ArrayList<Object[]>();
-    list.add(new Object[] {"test 1", "header 1", "footer 1"});
-    list.add(new Object[] {"test 2", "header 2", "header 3"});
-    list.add(new Object[] {"test 3", "header 3", "footer 3"});
-    list.add(new Object[] {"test 4", "header 4", "footer 4"});
-    list.add(new Object[] {"test 5", "header 5", "footer 5"});
-    list.add(new Object[] {"test 6", "header 6", "footer 6"});
-    list.add(new Object[] {"test 7", "header 7", "footer 7"});
+    list.add(new Object[] {new GroupData().withName("test 1").withHeader("header 1").withFooter("footer 1")});
+    list.add(new Object[] {new GroupData().withName("test 2").withHeader("header 2").withFooter("footer 2")});
+    list.add(new Object[] {new GroupData().withName("test 3").withHeader("header 3").withFooter("footer 3")});
+    list.add(new Object[] {new GroupData().withName("test 4").withHeader("header 4").withFooter("footer 4")});
+    list.add(new Object[] {new GroupData().withName("test 5").withHeader("header 5").withFooter("footer 5")});
+    list.add(new Object[] {new GroupData().withName("test 6").withHeader("header 6").withFooter("footer 6")});
+    list.add(new Object[] {new GroupData().withName("test 7").withHeader("header 7").withFooter("footer 7")});
     return list.iterator();
   }
 
   @Test(dataProvider = "validGroups")
-  public void testGroupCreation(String name, String header, String footer) {
-      GroupData group = new GroupData().withName(name).withHeader(header).withFooter(footer);
+  public void testGroupCreation(GroupData group) {
       app.goTo().groupPage();
       Groups before = app.group().all();
       app.group().create(group);
