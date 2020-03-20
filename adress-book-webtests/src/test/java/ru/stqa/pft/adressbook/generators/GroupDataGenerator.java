@@ -16,6 +16,8 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.beust.jcommander.JCommander.newBuilder;
+
 public class GroupDataGenerator {
   @Parameter(names = "-c", description = "Group count")
   public int count;
@@ -26,7 +28,7 @@ public class GroupDataGenerator {
 
   public static void main(String[] args) throws IOException {
     GroupDataGenerator generator = new GroupDataGenerator();
-    JCommander.newBuilder().addObject(generator).build();
+    newBuilder().addObject(generator).build();
     JCommander jCommander = new JCommander(generator);
     try {
       jCommander.parse(args);
@@ -79,7 +81,7 @@ public class GroupDataGenerator {
   private List<GroupData> generateGroups(int count) {
     List<GroupData> groups = new ArrayList<GroupData>();
     for (int i = 0; i <count ; i++) {
-      groups.add(new GroupData().withName(String.format("test %s", i)).withHeader(String.format("header\n %s",i)).withFooter(String.format("footer\n %s", i)));
+      groups.add(new GroupData().withName(String.format("test %s", i)).withHeader(String.format("header %s",i)).withFooter(String.format("footer %s", i)));
     }
     return groups;
   }

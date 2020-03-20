@@ -59,6 +59,5 @@ public class HelperBase {
   protected String  readTextFrom (By locator) {
     return wd.findElement(locator).getText();
   }
-
-
+  
 }

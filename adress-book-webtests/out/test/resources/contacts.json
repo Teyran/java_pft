@@ -1,0 +1,112 @@
+[
+  {
+    "firstName": "name 1",
+    "middleName": "middleName 1",
+    "lastName": "lastName 1",
+    "homePhone": "homePhone 1",
+    "email": "1@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 2",
+    "middleName": "middleName 2",
+    "lastName": "lastName 2",
+    "homePhone": "homePhone 2",
+    "email": "2@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 3",
+    "middleName": "middleName 3",
+    "lastName": "lastName 3",
+    "homePhone": "homePhone 3",
+    "email": "3@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 4",
+    "middleName": "middleName 4",
+    "lastName": "lastName 4",
+    "homePhone": "homePhone 4",
+    "email": "4@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 5",
+    "middleName": "middleName 5",
+    "lastName": "lastName 5",
+    "homePhone": "homePhone 5",
+    "email": "5@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 6",
+    "middleName": "middleName 6",
+    "lastName": "lastName 6",
+    "homePhone": "homePhone 6",
+    "email": "6@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 7",
+    "middleName": "middleName 7",
+    "lastName": "lastName 7",
+    "homePhone": "homePhone 7",
+    "email": "7@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 8",
+    "middleName": "middleName 8",
+    "lastName": "lastName 8",
+    "homePhone": "homePhone 8",
+    "email": "8@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 9",
+    "middleName": "middleName 9",
+    "lastName": "lastName 9",
+    "homePhone": "homePhone 9",
+    "email": "9@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  },
+  {
+    "firstName": "name 10",
+    "middleName": "middleName 10",
+    "lastName": "lastName 10",
+    "homePhone": "homePhone 10",
+    "email": "10@mail.ru",
+    "bday": "14",
+    "bmonth": "April",
+    "byear": "1990",
+    "group": "TestGroup1"
+  }
+]
