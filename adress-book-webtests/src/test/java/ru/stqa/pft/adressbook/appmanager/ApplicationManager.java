@@ -6,9 +6,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
 
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
+  //private final Properties properties;
   WebDriver wd;
   private SessionHelper sessionHelper;
   private NavigationHelper navigationHelper;
@@ -18,6 +20,8 @@ public class ApplicationManager {
 
   public ApplicationManager(String browser) {
     this.browser = browser;
+    String target = System.getProperty("target", "local");
+   // properties = new Properties();
   }
 
   public void init() {

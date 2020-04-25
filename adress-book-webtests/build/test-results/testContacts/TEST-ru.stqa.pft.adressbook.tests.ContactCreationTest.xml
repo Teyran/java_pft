@@ -1,35 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.adressbook.tests.ContactCreationTest" tests="11" skipped="10" failures="1" errors="0" timestamp="2020-03-29T19:54:49" hostname="DESKTOP-VH2UG0E" time="17.584">
+<testsuite name="ru.stqa.pft.adressbook.tests.ContactCreationTest" tests="12" skipped="10" failures="2" errors="0" timestamp="2020-04-25T10:36:46" hostname="DESKTOP-VH2UG0E" time="4.475">
   <properties/>
-  <testcase name="setUp" classname="ru.stqa.pft.adressbook.tests.ContactCreationTest" time="17.381">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name='user']&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'&#10;System info: host: 'DESKTOP-VH2UG0E', ip: '192.168.0.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\B48C~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a648f400a52b7ebb1dcc2ddc99e4a78d&#10;*** Element info: {Using=name, value=user}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name='user']&quot;}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+  <testcase name="setUp" classname="ru.stqa.pft.adressbook.tests.ContactCreationTest" time="4.26">
+    <failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79&#10;Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'&#10;System info: host: 'DESKTOP-VH2UG0E', ip: '192.168.0.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00D2A113+1548563]&#10;&#9;Ordinal0 [0x00CADDA1+1039777]&#10;&#9;Ordinal0 [0x00C2E485+517253]&#10;&#9;Ordinal0 [0x00BBFD34+64820]&#10;&#9;Ordinal0 [0x00BBC61E+50718]&#10;&#9;Ordinal0 [0x00BDB797+178071]&#10;&#9;Ordinal0 [0x00BDB59D+177565]&#10;&#9;Ordinal0 [0x00BD95FB+169467]&#10;&#9;Ordinal0 [0x00BC160A+71178]&#10;&#9;Ordinal0 [0x00BC2690+75408]&#10;&#9;Ordinal0 [0x00BC2629+75305]&#10;&#9;Ordinal0 [0x00CC71B7+1143223]&#10;&#9;GetHandleVerifier [0x00DC2B46+507814]&#10;&#9;GetHandleVerifier [0x00DC2864+507076]&#10;&#9;GetHandleVerifier [0x00DC9F47+537511]&#10;&#9;GetHandleVerifier [0x00DC3402+510050]&#10;&#9;Ordinal0 [0x00CBF29C+1110684]&#10;&#9;Ordinal0 [0x00CC938B+1151883]&#10;&#9;Ordinal0 [0x00CC94F3+1152243]&#10;&#9;Ordinal0 [0x00CC83F5+1147893]&#10;&#9;BaseThreadInitThunk [0x75316359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x775A7B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x775A7B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'DESKTOP-VH2UG0E', ip: '192.168.0.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\B48C~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a648f400a52b7ebb1dcc2ddc99e4a78d
-*** Element info: {Using=name, value=user}
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D2A113+1548563]
+	Ordinal0 [0x00CADDA1+1039777]
+	Ordinal0 [0x00C2E485+517253]
+	Ordinal0 [0x00BBFD34+64820]
+	Ordinal0 [0x00BBC61E+50718]
+	Ordinal0 [0x00BDB797+178071]
+	Ordinal0 [0x00BDB59D+177565]
+	Ordinal0 [0x00BD95FB+169467]
+	Ordinal0 [0x00BC160A+71178]
+	Ordinal0 [0x00BC2690+75408]
+	Ordinal0 [0x00BC2629+75305]
+	Ordinal0 [0x00CC71B7+1143223]
+	GetHandleVerifier [0x00DC2B46+507814]
+	GetHandleVerifier [0x00DC2864+507076]
+	GetHandleVerifier [0x00DC9F47+537511]
+	GetHandleVerifier [0x00DC3402+510050]
+	Ordinal0 [0x00CBF29C+1110684]
+	Ordinal0 [0x00CC938B+1151883]
+	Ordinal0 [0x00CC94F3+1152243]
+	Ordinal0 [0x00CC83F5+1147893]
+	BaseThreadInitThunk [0x75316359+25]
+	RtlGetAppContainerNamedObjectPath [0x775A7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x775A7B44+180]
+
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByName.findElement(By.java:311)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
-	at ru.stqa.pft.adressbook.appmanager.HelperBase.click(HelperBase.java:20)
-	at ru.stqa.pft.adressbook.appmanager.HelperBase.type(HelperBase.java:24)
-	at ru.stqa.pft.adressbook.appmanager.SessionHelper.login(SessionHelper.java:13)
-	at ru.stqa.pft.adressbook.appmanager.ApplicationManager.init(ApplicationManager.java:37)
-	at ru.stqa.pft.adressbook.tests.TestBase.setUp(TestBase.java:15)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
+	at ru.stqa.pft.adressbook.appmanager.ApplicationManager.init(ApplicationManager.java:29)
+	at ru.stqa.pft.adressbook.tests.TestBase.setUp(TestBase.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,6 +135,56 @@ Session ID: a648f400a52b7ebb1dcc2ddc99e4a78d
   </testcase>
   <testcase name="testContactCreation" classname="ru.stqa.pft.adressbook.tests.ContactCreationTest" time="0.0">
     <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="ru.stqa.pft.adressbook.tests.ContactCreationTest" time="0.0">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ru.stqa.pft.adressbook.appmanager.ApplicationManager.stop(ApplicationManager.java:59)
+	at ru.stqa.pft.adressbook.tests.TestBase.tearDown(TestBase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:369)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

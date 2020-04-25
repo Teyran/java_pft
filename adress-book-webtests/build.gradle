@@ -19,11 +19,24 @@ task testGroups(type: Test) {
     useTestNG {
         suites 'src/test/resources/testngGroups.xml'
     }
+
+    if(project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}" // Передача параметра по умолчанию: System.getProperty("browser", BrowserType.CHROME)
+    }
+    if(project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
 }
 
 task testContacts(type:Test) {
     useTestNG {
         suites 'src/test/resources/testngContacts.xml'
+    }
+    if(project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+    if(project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
     }
 }
 
